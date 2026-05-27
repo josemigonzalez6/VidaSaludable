@@ -61,35 +61,39 @@ body{
 /* HEADER */
 
 header{
-    background: rgba(255,255,255,0.22) !important;
+    background: rgba(255,255,255,0.18) !important;
 
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(14px);
 
-    border-radius: 28px;
+    border-radius: 32px;
 
-    margin: 40px auto;
+    margin: 35px auto;
 
-    max-width: 1450px;
+    max-width: 1250px;
 
-    padding: 65px 40px !important;
+    padding: 45px 35px !important;
 
-    box-shadow: 0 10px 28px rgba(0,0,0,0.12);
+    box-shadow: 0 10px 26px rgba(0,0,0,0.10);
 
-    border: 1px solid rgba(255,255,255,0.25);
+    border: 1px solid rgba(255,255,255,0.22);
 }
 
 header h1{
-    font-size: 72px;
+    font-size: 64px;
 
     font-weight: 800;
 
     color: #123b20;
+
+    margin-bottom: 10px;
 }
 
 header p{
-    font-size: 22px;
+    font-size: 20px;
 
-    margin-top: 15px;
+    margin-top: 0;
+
+    color: rgba(0,0,0,0.75);
 }
 
 /* TITULOS */
