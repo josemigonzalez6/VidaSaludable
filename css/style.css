@@ -296,3 +296,77 @@ header .lead{
     font-size: 18px !important;
     color: rgba(0,0,0,0.70) !important;
 }
+@media (max-width: 768px){
+.navbar{
+padding: 10px 15px;
+}
+
+.navbar-brand b{
+font-size: 24px !important;
+}
+
+.navbar-brand img{
+width: 55px !important;
+height: 55px !important;
+}
+
+.navbar-brand div div{
+font-size: 16px !important;
+}
+
+header{
+margin: 20px 15px;
+padding: 35px 20px !important;
+border-radius: 22px;
+}
+
+header h1,
+header .display-4{
+font-size: 34px !important;
+line-height: 1.2;
+}
+
+header p,
+header .lead{
+font-size: 16px !important;
+}
+
+.carousel-item img{
+height: 60vh !important;
+}
+
+.carousel-caption h1{
+font-size: 32px !important;
+}
+
+.carousel-caption p{
+font-size: 16px !important;
+}
+
+section{
+padding: 25px 12px;
+}
+
+section h2{
+font-size: 32px;
+}
+
+.card-img-top{
+height: 190px;
+}
+
+#alimentacion,
+#ejercicio{
+margin: 25px 15px;
+padding: 28px 22px !important;
+}
+
+#ejercicio p{
+text-align: center;
+margin-bottom: 20px;
+}
+
+.list-group-item{
+font-size: 15px;
+}
+}
