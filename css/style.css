@@ -1,14 +1,17 @@
+html, body{
+    min-height: 100%;
+}
+
 body{
-    background-image:
+    background:
     linear-gradient(
-        rgba(230,240,230,0.90),
-        rgba(230,240,230,0.90)
+        rgba(230,240,230,0.65),
+        rgba(230,240,230,0.65)
     ),
-    url("../img/hoj.jpg")
+    url("../img/hoj.jpg");
 
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     background-attachment: fixed;
-
-    margin: 0;
 }
