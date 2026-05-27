@@ -5,8 +5,8 @@ html, body{
 body{
     background:
     linear-gradient(
-        rgba(230,240,230,0.65),
-        rgba(230,240,230,0.65)
+        rgba(230,240,230,0.60),
+        rgba(230,240,230,0.60)
     ),
     url("../img/hoj.jpg");
 
@@ -16,32 +16,149 @@ body{
     background-attachment: fixed;
 
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-section,
-header{
-    background: transparent !important;
+.navbar{
+    background: linear-gradient(90deg, #0f5132, #198754) !important;
+    padding: 15px 25px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.25);
 }
 
-.card{
-    border: none;
-    border-radius: 15px;
-    overflow: hidden;
-    backdrop-filter: blur(5px);
+.navbar-brand b{
+    font-size: 34px !important;
+    letter-spacing: 1px;
+}
+
+.navbar-brand::before{
+    content: "🌿 ";
+}
+
+.nav-link{
+    font-weight: 600;
+    color: white !important;
+    margin-left: 15px;
     transition: 0.3s;
 }
 
-.card:hover{
-    transform: translateY(-5px);
-    box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
+.nav-link:hover{
+    color: #d8ffd8 !important;
+    transform: translateY(-2px);
+}
+
+
+header{
+    background-color: rgba(255,255,255,0.35) !important;
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
+    margin: 30px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+
+h1{
+    font-weight: 700;
+}
+
+h2{
+    font-weight: 700;
+    text-align: center;
+    color: #0f7b3c;
+    margin-bottom: 40px;
+}
+
+h2::before,
+h2::after{
+    content: " 🌿 ";
 }
 
 h1, h2, p{
     text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
 }
-header{
-    background-color: rgba(255,255,255,0.35) !important;
+
+section{
+    padding: 50px 25px;
+}
+
+.card{
+    border: none;
+    border-radius: 22px;
+    overflow: hidden;
+    background: rgba(255,255,255,0.88);
     backdrop-filter: blur(8px);
-    border-radius: 20px;
+
+    box-shadow: 0 8px 25px rgba(0,0,0,0.18);
+
+    transition: 0.35s;
+}
+
+.card:hover{
+    transform: translateY(-10px) scale(1.02);
+
+    box-shadow: 0 18px 35px rgba(0,0,0,0.28);
+}
+
+.card-img-top{
+    height: 220px;
+    object-fit: cover;
+}
+
+.card-body{
+    padding: 25px;
+}
+
+.card-title{
+    color: #0f7b3c;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+#alimentacion{
+    background: rgba(255,255,255,0.72) !important;
+
+    backdrop-filter: blur(10px);
+
+    border-radius: 25px;
+
     margin: 30px;
+
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+#ejercicio{
+    background: rgba(255,255,255,0.65);
+
+    backdrop-filter: blur(10px);
+
+    border-radius: 25px;
+
+    margin: 30px;
+
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.list-group-item{
+    border: none;
+
+    margin-bottom: 12px;
+
+    border-radius: 15px !important;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+
+    transition: 0.3s;
+}
+
+.list-group-item:hover{
+    transform: translateX(8px);
+}
+
+.list-group-item::before{
+    content: "✅ ";
+}
+
+footer{
+    margin-top: 40px;
+
+    box-shadow: 0 -4px 15px rgba(0,0,0,0.15);
 }
