@@ -370,3 +370,52 @@ margin-bottom: 20px;
 font-size: 15px;
 }
 }
+.testimonios {
+background: linear-gradient(rgba(0, 20, 70, 0.9), rgba(0, 100, 200, 0.8));
+padding: 80px 0;
+overflow: hidden;
+color: white;
+text-align: center;
+}
+
+.testimonios h2 {
+font-size: 38px;
+margin-bottom: 50px;
+}
+
+.tics-slider {
+width: 100%;
+overflow: hidden;
+}
+
+.tics-track {
+display: flex;
+width: max-content;
+animation: moverTics 20s linear infinite;
+}
+
+.tics-comentario {
+width: 320px;
+margin: 0 30px;
+text-align: left;
+}
+
+.tics-comentario p {
+font-size: 18px;
+line-height: 1.6;
+}
+
+.tics-comentario h4 {
+margin-top: 15px;
+color: #9fdcff;
+}
+
+@keyframes moverTics {
+0% {
+transform: translateX(0);
+}
+
+100% {
+transform: translateX(-50%);
+}
+}
