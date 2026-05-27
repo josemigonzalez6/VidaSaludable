@@ -1,3 +1,15 @@
+/* Estilo base (celular) */
+.card {
+  padding: 10px;
+}
+
+/* Computadora */
+@media (min-width: 768px) {
+  .card {
+    padding: 20px;
+  }
+}
+
 html {
   background-color: #FAF9F6;
 }
