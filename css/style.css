@@ -1,3 +1,14 @@
-body {
-  background-color: #EBFAEB;
+body{
+    background-image:
+    linear-gradient(
+        rgba(230,240,230,0.90),
+        rgba(230,240,230,0.90)
+    ),
+    url("img/hoj.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    margin: 0;
 }
