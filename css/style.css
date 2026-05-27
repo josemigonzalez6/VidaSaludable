@@ -275,3 +275,24 @@ footer{
 
     font-size: 17px;
 }
+header{
+    background: rgba(255,255,255,0.18) !important;
+    backdrop-filter: blur(14px);
+    max-width: 1100px !important;
+    padding: 38px 30px !important;
+}
+
+header h1,
+header .display-4{
+    font-size: 44px !important;
+    font-weight: 650 !important;
+    color: #1f5c37 !important;
+    line-height: 1.2 !important;
+    margin-bottom: 14px !important;
+}
+
+header p,
+header .lead{
+    font-size: 18px !important;
+    color: rgba(0,0,0,0.70) !important;
+}
