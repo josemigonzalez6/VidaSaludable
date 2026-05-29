@@ -370,81 +370,48 @@ margin-bottom: 20px;
 font-size: 15px;
 }
 }
-.testimonios {
-background: linear-gradient(rgba(0, 20, 70, 0.9), rgba(0, 100, 200, 0.8));
-padding: 80px 0;
-overflow: hidden;
-color: white;
-text-align: center;
+.comentario-card{
+    min-width: 350px;
+
+    max-width: 350px;
+
+    background: rgba(240,255,245,0.72);
+
+    backdrop-filter: blur(10px);
+
+    border-radius: 24px;
+
+    padding: 28px;
+
+    box-shadow: 0 8px 22px rgba(0,0,0,0.10);
+
+    transition: 0.3s;
+
+    border: 1px solid rgba(25,135,84,0.18);
 }
 
-.testimonios h2 {
-font-size: 38px;
-margin-bottom: 50px;
+.comentario-card:hover{
+    transform: translateY(-8px);
+
+    box-shadow: 0 14px 28px rgba(15,81,50,0.18);
 }
 
-.tics-slider {
-width: 100%;
-overflow: hidden;
+.comentario-card p{
+    font-size: 17px;
+
+    line-height: 1.7;
+
+    color: #234030;
+
+    margin-bottom: 18px;
 }
 
-.tics-track {
-display: flex;
-width: max-content;
-animation: moverTics 20s linear infinite;
-}
+.comentario-card h4{
+    color: #146c43;
 
-.tics-comentario {
-width: 320px;
-margin: 0 30px;
-text-align: left;
-}
+    font-size: 18px;
 
-.tics-comentario p {
-font-size: 18px;
-line-height: 1.6;
-}
+    font-weight: 700;
 
-.tics-comentario h4 {
-margin-top: 15px;
-color: #9fdcff;
-}
-
-@keyframes moverTics {
-0% {
-transform: translateX(0);
-}
-
-100% {
-transform: translateX(-50%);
-}
-}
-@media (max-width: 768px) {
-.testimonios {
-padding: 55px 0;
-}
-
-.testimonios h2 {
-font-size: 28px;
-margin-bottom: 35px;
-}
-
-.tics-track {
-animation: moverTics 25s linear infinite;
-}
-
-.tics-comentario {
-width: 260px;
-margin: 0 18px;
-text-align: center;
-}
-
-.tics-comentario p {
-font-size: 15px;
-line-height: 1.5;
-}
-
-.tics-comentario h4 {
-font-size: 14px;
-}
+    margin: 0;
 }
