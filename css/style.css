@@ -370,6 +370,30 @@ margin-bottom: 20px;
 font-size: 15px;
 }
 }
+#comentarios{
+    overflow: hidden;
+
+    width: 100%;
+}
+
+.comentarios-slider{
+    overflow: hidden;
+
+    position: relative;
+
+    width: 100%;
+}
+
+.comentarios-track{
+    display: flex;
+
+    gap: 25px;
+
+    width: max-content;
+
+    animation: scrollComentarios 45s linear infinite;
+}
+
 .comentario-card{
     min-width: 350px;
 
@@ -414,4 +438,14 @@ font-size: 15px;
     font-weight: 700;
 
     margin: 0;
+}
+
+@keyframes scrollComentarios{
+    from{
+        transform: translateX(0);
+    }
+
+    to{
+        transform: translateX(-50%);
+    }
 }
