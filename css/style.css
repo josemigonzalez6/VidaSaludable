@@ -291,15 +291,27 @@ footer{
     }
 
     .carousel-item img{
-        height: 60vh !important;
+        height: 80vh !important;
+    }
+
+    .carousel-caption{
+        bottom: 5% !important;
     }
 
     .carousel-caption h1{
-        font-size: 32px !important;
+        font-size: 22px !important;
+        margin-bottom: 10px;
     }
 
     .carousel-caption p{
-        font-size: 16px !important;
+        font-size: 13px !important;
+        line-height: 1.4;
+        margin-bottom: 10px;
+    }
+
+    .carousel-caption .btn{
+        font-size: 14px;
+        padding: 8px 16px;
     }
 
     section{
