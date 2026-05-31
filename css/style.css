@@ -318,7 +318,6 @@ footer{
     #ejercicio{
         width: calc(100% - 30px);
         margin: 25px auto;
-        padding: 28px 22px !important;
     }
 
     #ejercicio p{
