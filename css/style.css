@@ -290,28 +290,16 @@ footer{
         font-size: 16px !important;
     }
 
-    .carousel-item img{
+     .carousel-item img{
         height: 60vh !important;
     }
 
-    .carousel-caption{
-        bottom: 5% !important;
-    }
-
     .carousel-caption h1{
-        font-size: 22px !important;
-        margin-bottom: 10px;
+        font-size: 27px !important;
     }
 
     .carousel-caption p{
-        font-size: 13px !important;
-        line-height: 1.4;
-        margin-bottom: 10px;
-    }
-
-    .carousel-caption .btn{
-        font-size: 14px;
-        padding: 8px 16px;
+        font-size: 16px !important;
     }
 
     section{
