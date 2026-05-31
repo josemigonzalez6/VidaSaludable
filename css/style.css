@@ -338,4 +338,9 @@ footer{
     .list-group-item{
         font-size: 15px;
     }
+    
+    *{
+    outline: 1px solid red;
+}
+    
 }
