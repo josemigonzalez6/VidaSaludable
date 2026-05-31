@@ -11,6 +11,58 @@
 </head>
 <body>
 
+  <!-- Modal Capacitación TIC -->
+<div class="modal fade" id="modalCapacitacion" tabindex="-1" aria-labelledby="modalCapacitacionLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+
+      <div class="modal-header bg-success text-white">
+        <h5 class="modal-title" id="modalCapacitacionLabel">
+          Capacitación en Tecnologías de la Información y la Comunicación
+        </h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body">
+
+        <h4>¿Qué aprenderás?</h4>
+        <ul>
+          <li>Microsoft Word, Excel y PowerPoint.</li>
+          <li>Diseño gráfico con GIMP.</li>
+          <li>Programación en C++.</li>
+          <li>Desarrollo web con HTML, CSS y Bootstrap.</li>
+          <li>Bases de datos.</li>
+          <li>Uso de XAMPP.</li>
+          <li>Inteligencia Artificial aplicada.</li>
+        </ul>
+
+        <h4 class="mt-4">Beneficios</h4>
+        <p>
+          Desarrollarás habilidades tecnológicas que te ayudarán en el ámbito
+          académico y laboral, aprendiendo herramientas ampliamente utilizadas
+          en empresas y universidades.
+        </p>
+
+        <h4 class="mt-4">Campo laboral</h4>
+        <p>
+          Los conocimientos adquiridos pueden aplicarse en áreas como soporte
+          técnico, desarrollo web, programación, diseño gráfico y gestión de
+          información digital.
+        </p>
+
+        <h4 class="mt-4">Proyectos</h4>
+        <p>
+          Durante la capacitación podrás crear páginas web, programas en C++,
+          diseños gráficos, bases de datos y proyectos que integren
+          inteligencia artificial.
+        </p>
+
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+          Cerrar
+
   <div class="alert alert-success alert-dismissible fade show text-center m-0" role="alert">
   <strong>¡Bienvenido!</strong> Gracias por visitar Vida Saludable.
   <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
@@ -148,9 +200,12 @@
       GIMP para diseño gráfico.
     </p>
 
-    <a href="#capacitacion" class="btn btn-success btn-lg mt-3">
-      Más información
-    </a>
+    <button type="button"
+        class="btn btn-success btn-lg mt-3"
+        data-bs-toggle="modal"
+        data-bs-target="#modalCapacitacion">
+  Más información
+</button>
 
       </div>
     </div>
